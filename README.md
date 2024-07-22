@@ -1,3 +1,7 @@
+THIS IS NOT COMPLETE EFI AND README
+
+
+
 - OpenCore version : 0.9.9
 ### PC Info
 
