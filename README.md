@@ -1,8 +1,14 @@
 THIS IS NOT COMPLETE EFI AND README
+SLOSE1 HACKED and DELETED!! I LOVE YOU CHINA❤️❤️🖕❤️❤️
 
+need
 
+USB 3.0 PATCH
+OC 1.0.0
+Clean Args
+Clean readme..
 
-- OpenCore version : 0.9.9
+- OpenCore version : 1.0.0
 ### PC Info
 
 - CPU : Intel 10700
@@ -22,7 +28,7 @@ THIS IS NOT COMPLETE EFI AND README
 
 
 
-### Secure Boot Setting
+### Secure Boot Setting - old
   
 #### CUSTOM - Enroll EFI Image
 
