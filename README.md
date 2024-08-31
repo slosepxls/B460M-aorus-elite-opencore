@@ -8,12 +8,24 @@
 - Motherboard : Gigabyte B460M Arous Elite
 - WiFi : Intel AX200
 
-|       Disable        |                 Enable                 |
-|   Serial/COM Port    |           EHCI/XHCI Hand-off           |
-|         CSM          |           OS type: Windows 10          |
-|       CFG Lock       |            SATA Mode: AHCI             |
-|      Intel SGX       |          Secure Boot(Option)           |
-|                      |                  VT-d                  |
+
+## BIOS Settings
+
+Disable
+
+Serial/COM Port
+CSM
+CFG LOCK
+Intel SGX
+
+Enable
+
+EHCI/XHCI Hand-off
+SATA Mode: AHCI
+Secure Boot (option)
+VT-D
+OS Type: Windows 10
+
 
 
 
