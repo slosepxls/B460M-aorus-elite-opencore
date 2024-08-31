@@ -33,23 +33,28 @@ OS Type: Windows 10
 
 #### CUSTOM - Enroll EFI Image
 
-- BOOT/Bootx64.efi
+
+BIOS -> SecureBoot -> Key management -> Enroll EFI image
+
+
 
 every update change
 
-- OC/opencore.efi
-- usr/standalone/i386
+- OC/opencore.efi (OC Update)
+- usr/standalone/i386/boot.efi (macOS Update)
 
 one time
- 
-- kernel/i386/apfs_aligned.efi
-- OC/drivers/Openruntime.efi
-- OC/drivers/Opencanopy.efi
-- OC/tools/CleanNvram.efi
-- BOOT/Bootx64.efi
 
-- kernel/i386/apfs.efi
-- fud/HPMUtil.efi
-- usr/standalone/fud/MultiUpdater.efi
-- usr/standalone/i386/apfs_aligned.efi
-- usr/standalone/i386/apfs.efi
+EFI/BOOT/bootx64.efi
+EFI/OC/Driver/-.efi
+EFI/OC/Tools/-.efi
+
+
+/usr/standalone/i386/boot.efi
+/usr/standalone/i386/apfs_aligned.efi
+/usr/standalone/i386/apfs.efi
+/usr/standalone/firmware/FUD/MultiUpdater/MultiUpdater.efi
+/usr/standalone/firmware/FUD/USBCAccessoryFirmwareUpdater/HPMUtil.efi
+
+
+# Recommand Save File USB
