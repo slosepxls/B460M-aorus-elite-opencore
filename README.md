@@ -11,25 +11,33 @@
 
 ## BIOS Settings
 
-Disable
+### Disable
 
-Serial/COM Port
-CSM
-CFG LOCK
-Intel SGX
+- Serial/COM Port
+- CSM
+- CFG LOCK
+- Intel SGX
 
-Enable
+### Enable
 
-EHCI/XHCI Hand-off
-SATA Mode: AHCI
-Secure Boot (option)
-VT-D
-OS Type: Windows 10
-
-
+- EHCI/XHCI Hand-off
+- SATA Mode: AHCI
+- Secure Boot (option)
+- VT-D
+- OS Type: Windows 10
 
 
-### Easy Secure Boot Setting
+
+
+
+
+
+
+
+
+
+
+# Easy Secure Boot Setting
 
 #### CUSTOM - Enroll EFI Image
 
@@ -45,16 +53,16 @@ every update change
 
 one time
 
-EFI/BOOT/bootx64.efi
-EFI/OC/Driver/-.efi
-EFI/OC/Tools/-.efi
+- EFI/BOOT/bootx64.efi
+- EFI/OC/Driver/-.efi
+- EFI/OC/Tools/-.efi
 
 
-/usr/standalone/i386/boot.efi
-/usr/standalone/i386/apfs_aligned.efi
-/usr/standalone/i386/apfs.efi
-/usr/standalone/firmware/FUD/MultiUpdater/MultiUpdater.efi
-/usr/standalone/firmware/FUD/USBCAccessoryFirmwareUpdater/HPMUtil.efi
+- /usr/standalone/i386/boot.efi
+- /usr/standalone/i386/apfs_aligned.efi
+- /usr/standalone/i386/apfs.efi
+- /usr/standalone/firmware/FUD/MultiUpdater/MultiUpdater.efi
+- /usr/standalone/firmware/FUD/USBCAccessoryFirmwareUpdater/HPMUtil.efi
 
 
 ### Recommand Save File USB
