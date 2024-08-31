@@ -1,54 +1,68 @@
-THIS IS NOT COMPLETE EFI AND README
-SLOSE1 HACKED and DELETED!! I LOVE YOU CHINA❤️❤️🖕❤️❤️
 
-need
-
-USB 3.0 PATCH
-OC 1.0.0
-Clean Args
-Clean readme..
-
-- OpenCore version : 1.0.0
+- OpenCore version : 1.0.1
+  
 ### PC Info
 
 - CPU : Intel 10700
 - GPU : AMD RX5700XT
 - Motherboard : Gigabyte B460M Arous Elite
-
-	
-|       Disable        |                 Enable                 |
-| :------------------: | :------------------------------------: |
-|      Fast Boot       |           Above 4G decoding            |
-|  Re-Size BAR Support |            Hyper-Threading             |
-|   Serial/COM Port    |           EHCI/XHCI Hand-off           |
-|         CSM          |           OS type: Windows 10          |
-|       CFG Lock       |            SATA Mode: AHCI             |
-|      Intel SGX       |   Secure Boot(first install disable)   |
-|                      |                  VT-d                  |
+- WiFi : Intel AX200
 
 
+## BIOS Settings
 
-### Secure Boot Setting - old
-  
+### Disable
+
+- Serial/COM Port
+- CSM
+- CFG LOCK
+- Intel SGX
+
+### Enable
+
+- EHCI/XHCI Hand-off
+- SATA Mode: AHCI
+- Secure Boot (option)
+- VT-D
+- OS Type: Windows 10
+
+
+
+
+
+
+
+
+
+
+
+
+# Easy Secure Boot Setting
+
 #### CUSTOM - Enroll EFI Image
 
-- BOOT/Bootx64.efi
 
-- OC/opencore.efi
+BIOS -> SecureBoot -> Key management -> Enroll EFI image
 
-- OC/drivers/Openruntime.efi
 
-- OC/drivers/Opencanopy.efi
 
-- OC/tools/CleanNvram.efi
+every update change
 
-- OC/tools/boot.efi <- I found that the boot.efi of macOS might be different. Please import and add the boot.efi separately from /usr/standalone/i386 in finder.
+- OC/opencore.efi (OC Update)
+- usr/standalone/i386/boot.efi (macOS Update)
 
-- kernel/fud/HPMUtil.efi
+one time
 
-- kernel/fud/MultiUpdater.efi
+- EFI/BOOT/bootx64.efi
+- EFI/OC/Driver/-.efi
+- EFI/OC/Tools/-.efi
 
-- kernel/i386/apfs_aligned.efi
 
-- kernel/i386/apfs.efi
+- /usr/standalone/i386/boot.efi
+- /usr/standalone/i386/apfs_aligned.efi
+- /usr/standalone/i386/apfs.efi
+- /usr/standalone/firmware/FUD/MultiUpdater/MultiUpdater.efi
+- /usr/standalone/firmware/FUD/USBCAccessoryFirmwareUpdater/HPMUtil.efi
 
+
+### Recommand Save File USB
