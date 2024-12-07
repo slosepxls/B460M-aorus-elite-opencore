@@ -1,3 +1,9 @@
+# I Changed M1 Mac GG
+
+No more Update
+
+
+
 
 - OpenCore version : 1.0.1
   
