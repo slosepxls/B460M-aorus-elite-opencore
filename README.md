@@ -1,6 +1,6 @@
-# I Changed M1 Mac GG
+## I Changed M1 Pro !
 
-No more Update
+## No more Update
 
 
 
